@@ -1,0 +1,558 @@
+/*  General Styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  /*  Main  */
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /*  Title  */
+  
+  #title-container {
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    
+   }
+  
+  #title {
+    font-family: arial, sans-serif;
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: 10vw;
+    width: 100%;
+    margin: 0 auto;  
+   }
+  
+  #goat > h2 {
+    color: #000;
+    font-size: 30vw;
+    font-weight: 900;
+    margin: 20px auto;
+    text-align: center;
+    text-shadow: 2px 3px rgba(255, 255, 255, 1) , 0 0 rgba(255, 255, 255, 1);
+  }
+  
+  /*  Tribute Body  */
+  
+  #tribute-body {
+    display: flex;
+    flex-direction: column
+   }
+          
+  #image {
+    width: 100%;
+    margin-top: -230px;
+  }
+  
+  #img-div {
+    text-align: center;
+  }
+  
+  #img-caption {
+    padding: 0 20px;
+    margin-top: -30px;
+  }
+  
+  /*  Tribute Info  */
+          
+  #tribute-info {
+    width: 80%;
+    margin: 30px auto;
+  }
+  
+  #tribute-info-hidden {
+    display: none;
+  }
+  
+  /*  Profile Table  */
+  
+  .headers {
+    background-color: #bf8813;
+    color: #fff;
+    padding: 10px 0; 
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .profile-table {
+    width: 100%;
+    margin: 0px auto 30px auto;
+    padding: 10px 5px;
+    border: 0px solid #fff;
+  }
+  
+  .profile-table th, td {
+    padding: 2px 2px;
+    vertical-align: top;
+  }
+  
+  .profile-table th {
+    color: #F1BD50;
+    text-align: right;
+  }
+  
+  .profile-table td {
+    text-align: left;
+  }
+  
+  #space-div {
+    display: none;
+  }
+  
+  #stats-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .stats {
+    color: #F1BD50;
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 30px 0;
+    border-bottom: 1px solid #F1BD50;
+    }
+  
+  .stats  h3 {
+    font-size: 23vw;
+    }
+  
+  .zeros {
+    color: #fff;
+  }
+  
+  /*  Links  */
+  
+  #links {
+    display: block;
+  }
+  
+  #links-hidden {
+    display: none;
+  }
+  
+  #info-button {
+    background-color: #bf8813;
+    color: #fff;
+    padding: 15px 0;
+    margin: 30px auto;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 60%;
+  }
+  
+  #info-button a {
+    color: #fff;
+  }
+  
+  #info-button:hover {
+    cursor: pointer;
+    background-color: #F1BD50;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  #to-top {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  #to-top a:visited {
+    color: #fff;
+  }
+  
+  
+  /*  Footer  */
+  
+  #footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 0px solid #fff;
+    align-items: center;
+    padding: 10px 0 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    grid-gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .twitter a:hover {
+    color: #24A4F2;
+    font-size: 30px;
+  }
+  
+  .twitter a:visited {
+    color: #24A4F2;
+  }
+  
+  .facebook a:hover {
+    font-size: 30px;
+    color: #4064AC;
+  }
+  
+  .facebook a:visited {
+    color: #4064AC;
+  }
+  
+  
+  
+  @media only screen and (max-width: 430px) {
+    
+    #title {
+      font-size: 6vw;
+      line-height: 9vw;
+    }
+    
+    #christiano-ronaldo hr.top-line {
+    border: 1px solid #F1BD50;
+    width: 80%;
+    margin: 0 auto 5px;
+  }
+    
+    #christiano-ronaldo hr.bottom-line {
+    border: 1px solid #F1BD50;
+    width: 60%;
+    margin: 5px auto 0px;
+  }
+  
+    #goat > h2 {
+      font-size: 27vw;
+    }
+    
+    #image {
+      width: 100%;
+      margin-top: -210px;
+    }
+    
+    #links-hidden {
+      display: none;
+    }
+    
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 431px) {
+    
+    #main {
+    width: 80vw;
+    margin: 0 auto;
+    }
+    
+    #title {
+      font-size: 6vw;
+      line-height: 9vw;
+    }
+    
+    #christiano-ronaldo hr.top-line {
+      border: 1px solid #F1BD50;
+      width: 90%;
+      margin: 0 auto 5px;
+    }
+    
+    #christiano-ronaldo hr.bottom-line {
+      border: 1px solid #F1BD50;
+      width: 70%;
+      margin: 5px auto 0px;
+    }
+    
+    #goat > h2 {
+      font-size: 24vw;
+      margin-top: 30px;
+    }
+  
+    #tribute-body {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      align-items: flex-end;
+      margin-top: -50px;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #F1BD50;
+     }
+    
+    #image {
+      width: 140%;
+      margin-top: -200px;
+    }
+    
+    #img-caption {
+      text-align: left;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+    
+    #stats-box {
+      width: 100%;
+      margin-left: 0px;
+    }
+  
+    .stats {
+      font-size: 4vw;
+      margin: 0 auto;
+      padding: 10px 0;
+      text-shadow: #000 1px 0 2px;;
+    }
+    
+    .stats-header {
+      display: none;
+    }
+  
+    .stats  h3 {
+      font-size: 7vw;
+    }
+    
+    .stats-ballons-dor {
+      border-bottom: 1px solid #000;
+    }
+    
+    #tribute-info {
+      display: none;
+      width: 80%;
+      margin: 30px auto;
+    }
+  
+    #tribute-info-hidden {
+      display: block;
+      width: 90%;
+      margin: 30px auto;
+    }
+    
+    #links {
+      display: none;
+    }
+    
+    #links-hidden {
+      display: block;
+      padding-bottom: 15px;
+    }
+    
+    #info-button {
+      padding: 15px 35px;
+      margin: 40px auto 0 auto;
+      font-size: 3vw;
+      text-align: left;
+      width: 90%;
+    }
+   
+    .headers-hidden {
+      text-align: left;
+      padding-left: 35px;
+    }
+    
+    #to-top.to-top-hidden {
+      text-align: left;
+      margin-left: 55px;
+    }
+    
+    #footer {
+      align-items: center;
+      grid-gap: 10px;
+    } 
+  }
+  
+  
+  
+  @media only screen and (min-width: 725px) {
+     
+    #main {
+      width: 70vw;
+    }
+    
+    #title-container {
+      width: 100%;
+    }
+    
+    #title {
+      font-size: 5vw;
+      line-height: 7.5vw;
+    }
+    
+    #christiano-ronaldo hr.top-line {
+    border: 2px solid #F1BD50;
+    width: 90%;
+    margin: 0 auto 8px;
+  }
+    
+    #christiano-ronaldo hr.bottom-line {
+    border: 2px solid #F1BD50;
+    width: 70%;
+    margin: 8px auto 0px;
+  }
+    
+    #goat > h2 {
+      font-size: 20vw;
+      margin-top: 33px;
+    }
+    
+    #tribute-body {
+      align-items: flex-end;
+      padding-top: 310px;
+      padding-bottom: 20px;
+      margin-top: -350px;
+     }
+    
+    #tribute-info-hidden {
+      margin: 0px 0;
+     }
+    
+    #img-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    
+    #image {
+      width: 120%;
+      margin-top: -250px;
+    }
+    
+    #img-caption {
+      text-align: left;
+      width: 80%;
+      margin-left: 0;
+      margin-bottom: 50px;
+      padding-left: 50px;
+    }
+    
+    #info-button {
+      padding: 15px 0px;
+      margin: 40px 0 0 0;
+      font-size: 3vw;
+      text-align: center;
+      width: 100%;
+    }
+    
+    #hidden-section {
+      display: flex;
+      flex-direction: column;
+      justify-self: end;
+    }
+    
+    .headers-hidden {
+      padding-left: 50px;
+    }
+    
+    .stats p {
+      line-height: 4vw;
+    }
+  
+    .profile-table th, td {
+      padding: 5px 5px;
+    }
+    
+    #links-hidden {
+      align-items: center;
+      width: 40%;
+      margin-left: 60px;
+    }
+    
+    #to-top.to-top-hidden {
+      text-align: center;
+      margin-left: 0px;
+    }
+    
+    #info-button {
+      margin-left: 0;
+    }
+    
+    .footer-divider {
+      display: none;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 800px) {
+    
+    #tribute-body {
+      align-items: flex-end;
+      margin-top: 0px;
+      padding-top: 0;
+     }
+    
+    #image {
+      margin-top: -300px;
+    }
+      
+    .profile-table {
+      font-size: 16px;
+      margin-bottom: 200px;
+    } 
+    
+    #links-hidden {
+      align-items: flex-end;
+    }
+    
+    #info-button {
+      font-size: 3vw;
+      width: 100%;
+    }
+    
+    #space-div {
+      display: block;
+      height: 150px;
+    }
+  
+  }
+  
+  
+  @media only screen and (min-width: 1025px) {
+    
+    
+    #image {
+      margin-top: -400px;
+    }
+    
+    #img-caption {
+      font-size: 24px;
+    }
+    
+    .profile-table {
+      font-size: 24px;
+    }
+    
+    #space-div {
+      display: block;
+      height: 300px;
+    }  
+  }

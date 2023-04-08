@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: #696969;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+#main {
+    background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+
+
+/*  Title  */
+
+
+#title {
+	color: #fff;
+    margin-bottom: 20px;
+    position: absolute;
+    padding: 40px 0 0 40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#title h1 {
+    font-size: 9vw;
+    line-height: 8vw;
+}
+
+#title h2 {
+    font-size: 6vw;
+    font-weight: normal;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 2px 0;
+    margin: 2px 0;
+    width: 48vw;
+}
+
+#title p {
+    font-size: 6vw;
+}
+
+
+
+/*  Image  */
+
+
+#img-div {
+    width: 100%;
+}
+
+#image {
+	max-width: 100%;
+}
+
+#img-caption {
+    font-size: 95%;
+    border-bottom: 1px solid #696969;
+    margin: 20px 40px; 
+    padding-bottom: 20px;
+    
+}
+
+
+
+
+/*  Info */
+
+
+#tribute-info {
+    background-color: #fff;
+    padding: 10px 40px 20px;
+    line-height:1.5em;
+}
+
+#tribute-info-list {
+    border-bottom: 1px solid #696969;
+    padding-bottom: 30px;
+}
+
+#tribute-info ul {
+	list-style-type: none;
+}
+
+#tribute-info ul li {
+	padding: 15px 0px;
+}
+
+.years {
+    font-weight: bold;
+}
+
+
+
+
+/*  Quotes  */
+
+
+#quotes {
+    padding: 0px 0px 30px;
+    border-bottom: 1px solid #696969;
+    text-align: left;
+}
+
+blockquote {
+    padding: 15px 0;
+}
+
+blockquote p {
+    margin-bottom: 5px;
+}
+
+cite {
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+
+
+/*  Links  */
+
+
+#links {
+    margin: 20px auto;
+    text-align: center
+}
+
+#links a {
+	display: block;
+  padding: 2px;
+}
+
+
+/*
+@media only screen and (min-width: 460px) and (max-width: 759px){
+	
+	#main {
+		width: 100%;
+	}
+
+}
+*/
+
+@media only screen and (min-width: 576px) {
+	
+	#main {
+        width: 80%;
+    }
+    
+    #title h1 {
+        font-size: 7.3vw;
+        line-height: 6vw;
+    }
+
+    #title h2 {
+        font-size: 5vw;
+        width: 40vw;
+    }
+
+    #title p {
+        font-size: 5vw;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+	
+	#main {
+        width: 70%;
+    }
+	
+	#title h1 {
+        font-size: 6.3vw;
+        line-height: 5vw;
+    }
+
+    #title h2 {
+        font-size: 4.2vw;
+        width: 33vw;
+    }
+
+    #title p {
+        font-size: 4.2vw;
+    }
+}
+
+
+
+@media only screen and (min-width: 960px) {
+    
+    #main {
+        width: 50%;
+    }
+    
+    #title h1 {
+        font-size: 4.5vw;
+        line-height: 4vw;
+    }
+
+    #title h2 {
+        font-size: 3vw;
+        width: 24vw;
+    }
+
+    #title p {
+        font-size: 3vw;
+    }
+
+}
